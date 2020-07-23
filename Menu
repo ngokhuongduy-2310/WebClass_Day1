@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.menu ul li{
+            list-style: none;
+            width: 185px;
+            height: 40px;
+            line-height: 40px;
+            background-color: yellowgreen;
+            border: 1px solid red;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 13px;
+            color: white;
+            position: relative;
+        }
+        div.menu ul li ul li{
+            left: 145px;
+            top:-42px;
+            display: none;
+        }
+        div.menu ul li:hover{
+            background-color:burlywood;
+        }
+        div.menu ul li:hover ul li{
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">Home page</a></li>
+            
+            <li>
+                <a href="#">Sports</a>
+                <ul>
+                    <li><a href="#">Basketball</a></li>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Volleyball</a></li>
+                    <li><a href="#">Tennis</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Foods</a>
+                <ul>
+                    <li><a href="#">Noodles</a></li>
+                    <li><a href="#">Hamburger</a></li>
+                    <li><a href="#">Rice</a></li>
+                    <li><a href="#">Sandwichs</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Drinks</a>
+                <ul>
+                    <li><a href="#">Coca</a></li>
+                    <li><a href="#">Matcha</a></li>
+                    <li><a href="#">Apple Juice</a></li>
+                    <li><a href="#">Mint</a></li>
+                    <li><a href="#">Salt lemon</a></li>
+                </ul>
+            </li>
+
+        </ul>
+    </div>
+</body>
+</html>
